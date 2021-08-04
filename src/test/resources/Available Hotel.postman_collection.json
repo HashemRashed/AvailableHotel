@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "ed916efe-f7f7-4f8b-9240-7b93b1def832",
+		"name": "Available Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Available Hotel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8070/hotel/available/search?city=MMA&fromDate=2021-10-23&toDate=2021-10-29&numberOfAdults=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"hotel",
+						"available",
+						"search"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "MMA"
+						},
+						{
+							"key": "fromDate",
+							"value": "2021-10-23"
+						},
+						{
+							"key": "toDate",
+							"value": "2021-10-29"
+						},
+						{
+							"key": "numberOfAdults",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
